@@ -79,13 +79,12 @@ def write_your_own(gj):
 
     Do not forget to write the accompanying test in
     tests.py!
-    Find mega cities/super cities/ whatever they may be called. really big ones.
+   the easiest thing might be to find mega cities/super cities/ whatever they may be called. really big ones.
     Guess it'll need to be megacity. super doesn't work.
     REMINDER: write test in tests.py!
     """
     temp = gj['features']
     megacities = 0
-
     for n in temp:
         if(n['properties']['megacity']== 1):
             megacities +=1
